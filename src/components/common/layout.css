@@ -8,6 +8,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+main {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
 article,
 aside,
 details,
@@ -185,7 +189,6 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -619,4 +622,12 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.App-header {
+  background-image: radial-gradient(circle at 0px 0px, rgb(0, 112, 186), rgb(21, 70, 160));
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 73px;
 }
